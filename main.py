@@ -6,10 +6,8 @@ from aiogram.client.bot import DefaultBotProperties
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 from TikTokApi import TikTokApi
 
-# ================================
-# Встав сюди свій токен від BotFather
+
 BOT_TOKEN = "8395251030:AAFsZE4faqCygYGgOt6W2be4NCfhtCITr90'"
-# ================================
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
